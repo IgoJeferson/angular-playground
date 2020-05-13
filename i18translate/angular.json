@@ -57,6 +57,14 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "es": {
+              "aot": true, 
+              "outputPath": "dist/i18ntranslate/",
+              "i18nFile": "locale/messages.es.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "es",
+              "i18nMissingTranslation": "error"
             }
           }
         },
@@ -68,6 +76,9 @@
           "configurations": {
             "production": {
               "browserTarget": "i18translate:build:production"
+            },
+            "es": {
+              "browserTarget": "i18translate:build:es"
             }
           }
         },
